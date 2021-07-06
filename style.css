@@ -73,10 +73,7 @@ body{
 }
  
   /* Recipi Area CSS */
-  .recipi-text h1 {
-	font-size: 36px;
-    color: #707070;
-}
+
   .each-box {
 	width: 30%;
 	margin: 3.3%;
@@ -96,13 +93,33 @@ body{
 	text-align: center;
 	padding: 0 20%;
 }
-
- /* Optional Area CSS */
-
+.recipi-text h1 {
+	font-size: 36px;
+    color: #707070;
+}
+.each-counting {
+	width: 15%;
+	margin: 10%;
+}
 .each-counting h1 {
 	font-size: 50px;
 	line-height: 10px;
 }
 
  /* Footer Area CSS */
- 
+ .footer-text {
+	background: black;
+	width: 100%;
+	height: 230px;
+	text-align: center;
+	color: white;
+	padding-top: 30px;
+}
+.footer-text h2 {
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.footer-text span {
+	color: orange;
+}
