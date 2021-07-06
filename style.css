@@ -123,3 +123,25 @@ body{
 .footer-text span {
 	color: orange;
 }
+/* Choose us Area CSS */
+.choose-img {
+	width: 85%;
+	margin-top: 95px;
+}
+  .choose-img img {
+    width: 100%;
+  }
+  .choose-header{
+
+  }
+  .choose-header h1{
+    font-size: 36px;
+	color: #707070;
+  }
+  .point-img {
+	margin: 30px;
+}
+.point-text h4 {
+	font-size: 20px;
+	font-family: roboto;
+}
