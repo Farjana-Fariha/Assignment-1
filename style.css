@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+}
+.flexible{
+    display: flex;
+}
+
+
+/* Banner Area CSS */
+
+.banner-text {
+	padding: 150px 50px;
+	width: 50%;
+}
+.banner-text h1 {
+	font-size: 40px;
+	font-weight: bold;
+	line-height: 20px;
+}
+.banner-text span{
+    color: orange;
+}
+.banner-text p {
+	margin: 40px 0;
+}
+.button {
+	text-decoration: none;
+	padding: 16px 25px;
+	background-image: linear-gradient(to right, orange, red);
+	border-radius: 50px;
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+}
+.banner-img {
+    width: 50%;
+  }
+  .banner-img img {
+    width: 95%%;
+  }
+
+  /* About me Area CSS */
+
+ .about-me {
+    background-image: url(img/shapes/7.png);
+    background-repeat: no-repeat;
+    background-position: right;
+ }
+ .about-me-img {
+	width: 40%;
+	margin: 5%;
+}
+.about-me-img img {
+	width: 70%;
+}
+.about-me-text {
+	width: 40%;
+	margin-top: 16%;
+}
+.about-me-text h1 {
+	font-size: 36px;
+	color: #707070;
+}
+ .about-me-text p{
+
+ }
+ .contact-btn {
+	margin-top: 85px;
+	display: inline-block;
+}
+ 
+  /* Recipi Area CSS */
+  .recipi-text h1 {
+	font-size: 36px;
+    color: #707070;
+}
+  .each-box {
+	width: 30%;
+	margin: 3.3%;
+	padding: 20px;
+	box-shadow: 12px 12px 40px #979a9d,-12px -12px 40px #979a9d;
+	border-radius: 20px;
+}
+.each-box img {
+	width: 90%;
+	margin-left: 15px;
+}  
+  .each-box h1 {
+	font-size: 30px;
+	margin: 35px 0;
+}
+.recipi-text {
+	text-align: center;
+	padding: 0 20%;
+}
+
+ /* Optional Area CSS */
+
+.each-counting h1 {
+	font-size: 50px;
+	line-height: 10px;
+}
+
+ /* Footer Area CSS */
+ 
